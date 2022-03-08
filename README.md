@@ -1,1 +1,1 @@
-# startup.asan-nanum.org_2nd
+# univ-startup_asan_nanum
