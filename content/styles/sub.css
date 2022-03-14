@@ -1323,6 +1323,10 @@
     display: none;
 }
 
+.rp-mentor .ptn-info ul li.academic { /* 220314 zoe 추가 */
+    padding-top: 1rem;
+}
+
 .rp-mentor .ptn-info:hover {
     cursor: pointer;
 }
@@ -2813,6 +2817,13 @@
         min-width: 0;
         margin-right: 0;
         margin-bottom: 5px;
+    }
+
+    /*===================================
+	대회안내 (220314 zoe 추가)
+	===================================*/
+    .info-txt .details .timeline li .term strong.multiline {
+        height: 38px;
     }
 }
 

@@ -580,7 +580,7 @@ header.main:not(.fixed) .mobile-menu:after {
 
     .main-visual .video-block {
         padding-bottom: 129.2708333% !important;
-        background: url(../images/11th/m-main-visual.png) no-repeat; /* 220307 zoe 수정 */
+        background: url(../images/11th/m-main-visual-ver2.png) no-repeat; /* 220314 zoe 수정 */ 
         background-size: cover;
         overflow: hidden;
     }
@@ -724,7 +724,7 @@ header.main:not(.fixed) .mobile-menu:after {
 	*/
 }
 /*===================================
-공지 팝업
+공지 팝업 (0402 zoe 추가)
 ===================================*/
 body.full {
     overflow: hidden;
