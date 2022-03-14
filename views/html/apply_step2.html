@@ -79,7 +79,7 @@
 				<h2>
 					<em>2022년 정주영 창업경진대회 11회와 함께</em>
 					도전하고, 성장할 여러분을 기다립니다!
-				</h2> <!-- 220307 zoe 수정 -->
+				</h2>
 			</div><!--// grid -->
 		</div>
 
@@ -103,6 +103,18 @@
 					<div class="frm-wrap">
 						<h3 class="s-tit">참가정보</h3>
 						<ul class="frm basic">
+							<li style="flex-wrap: wrap;align-items: flex-start;">
+								<label for="sel3" style="padding-top: 0.5rem;">사업구분</label>
+								<div style="width: calc(100% - 9rem);">
+									<select id="sel3">
+										<option>예비창업</option>
+										<option>개인사업</option>
+										<option>법인기업</option>
+									</select>
+									<p class="desc" style="padding-top: 1rem;">정창경11의 경우 예비트랙(예비창업) 6팀, 기업트랙(개인, 법인기업) 6팀을 각각 선발하여 총 12팀을 모집합니다.<br>1) 예비 트랙: 사업 구분 내 예비 창업팀. 팀원 수 최소 2명 이상의 창업을 희망하는 예비 창업자(지원 시점 기준)<br>2) 기업 트랙: 사업 구분 내 개인사업, 법인 기업팀. 2020년 3월 15일 이후 설립 기준 법인 2년 이하의 대표 포함 2명 이상의 기업<br>※ 누적 투자 5억 이하(지원 시점 기준)</p>
+									<p class="desc red">※ 초기창업자의 경우 2년 이내 설립하였을 경우 지원 가능(2020년 3월 15일 이후 기준)</p>
+								</div>
+							</li> <!-- 220314 2차 zoe 추가 -->
 							<li class="flx-wr custom2">
 								<ul class="flx">
 									<li>
@@ -135,11 +147,13 @@
 									</li>
 								</ul>
 							</li>
-							<li>
-								<label for="txt5">서비스(제품)명</label>
-								<input type="text" id="txt5" class="ipt-max" />
-							</li>
-							<li class="flx-wr custom2 al-top">
+							<li class="flx-wr custom2">
+								<ul class="flx">
+									<li>
+										<label for="txt5">서비스(제품)명</label>
+										<input type="text" id="txt5" class="ipt-max" />
+									</li>
+								</ul>
 								<ul class="flx">
 									<li>
 										<label for="sel2">지원지역</label>
@@ -150,20 +164,7 @@
 										</select>
 									</li>
 								</ul>
-								<ul class="flx">
-									<li>
-										<label for="sel3">사업구분</label>
-										<span>
-											<select id="sel3">
-												<option>예비창업자</option>
-												<option>초기창업자</option>
-											</select>
-											<br />
-											<span class="desc red">※ 초기창업자의 경우 2년 이내 설립하였을 경우 지원 가능(2020년 3월 1일 이후 기준)</span>
-										</span>
-									</li> <!-- 220307 zoe 수정 -->
-								</ul>
-							</li>
+							</li> <!-- 220314 2차 zoe 수정 -->
 							<li class="flx-wr custom2">
 								<ul class="flx">
 									<li>
@@ -184,6 +185,8 @@
 											<option>6명</option>
 											<option>7명</option>
 											<option>8명</option>
+											<option>9명</option>
+											<option>10명 이상</option>
 										</select>
 									</li>
 								</ul>
@@ -249,10 +252,10 @@
 								</ul>
 								<ul class="flx">
 									<li>
-                                        <label for="Name">성별</label>
-                                        <input type="text" id="Gender" name="Gender" value="남성" maxlength="5" class="ipt-max" readonly />
-                                    </li>
-								</ul> <!-- 220307 zoe 수정 -->
+										<label for="txt8">성별</label>
+										<input type="text" id="txt8" class="ipt-max" value="남성" readonly>
+									</li>
+								</ul>
 							</li>
 							<li>
 								<label for="txta3">
@@ -307,7 +310,7 @@
 							<li>
 								<textarea id="txta4" placeholder="현재 사업 진행상황을 세부적으로 기입해 주세요."></textarea>
 							</li>
-						</ul> <!-- 220307 zoe 수정 -->
+						</ul>
 					</div><!--// frm-wrap -->
 					<!--// 03. 사업현황 -->
 
@@ -583,7 +586,7 @@
 				<div class="contact">
 					<ul>
 						<li>서울특별시 중구 동호로 208</li>
-						<li>TEL. 02-3453-1368</li>
+						<li>TEL. 02-3453-1365</li>
 						<li>E-Mail : <a href="mailto:startup@asan-nanum.org">startup@asan-nanum.org</a></li>
 					</ul>
 					<div>Copyright © The Asan Nanum Foundation. All rights reserved.</div>
